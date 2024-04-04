@@ -23,7 +23,7 @@ public class WordList
   {
     int i = 0;
      while( i< myList.size()){
-      if( mySize.get(i).length() == len){
+      if( myList.get(i).length() == len){
         myList.remove(i);
       }
       else{i++;}
